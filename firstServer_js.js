@@ -20,7 +20,7 @@ var server = http.createServer(handleRequest);
 server.listen(PORT, function() {
 
   // The below statement is triggered (server-side) when a user visits the PORT URL
-  console.log("Server listening on: http://localhost:", PORT);
+  console.log("Server listening on: http://localhost:",PORT);
 
 });
 
@@ -31,5 +31,5 @@ function handleRequest2(request, response) {
 var server = http.createServer(handleRequest2);
 
 server.listen(PORT2, function() {
-  console.log("Server listening on: http://localhost:", PORT2);
+  console.log("Server listening on: http://localhost:",PORT2);
 });
